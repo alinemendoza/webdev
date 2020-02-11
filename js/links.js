@@ -1,3 +1,4 @@
+//names of the image files
 var links = [
 "be1","be2","be3","be4","be5","be6","be7","be8","be9","be10",
 "cs1","cs10","cs11","cs2","cs3","cs4","cs5","cs6","cs7","cs8","cs9",
@@ -366,6 +367,7 @@ function dispProj(){
 	}
 		
 	document.getElementById("pHolder").innerHTML = tobeDisp;
+	myVar = setTimeout(dispProj, 20000);
 }
 
  
